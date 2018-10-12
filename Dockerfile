@@ -1,6 +1,6 @@
 FROM php:7.2-fpm
 
-RUN apt-get update && apt-get upgrade && \
+RUN apt-get update -y && apt-get upgrade -y && \
     apt-get install -y --no-install-recommends \
     bash \
     git \
